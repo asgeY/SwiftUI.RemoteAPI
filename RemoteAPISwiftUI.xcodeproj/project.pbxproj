@@ -13,6 +13,8 @@
 		F83794BC2310375F00B76391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83794BB2310375F00B76391 /* Assets.xcassets */; };
 		F83794BF2310375F00B76391 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83794BE2310375F00B76391 /* Preview Assets.xcassets */; };
 		F83794C22310375F00B76391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83794C02310375F00B76391 /* LaunchScreen.storyboard */; };
+		F83794CA2310380400B76391 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83794C92310380400B76391 /* NetworkingManager.swift */; };
+		F83794CC23103EF400B76391 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83794CB23103EF400B76391 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F83794BE2310375F00B76391 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F83794C12310375F00B76391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F83794C32310375F00B76391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83794C92310380400B76391 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		F83794CB23103EF400B76391 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F83794C02310375F00B76391 /* LaunchScreen.storyboard */,
 				F83794C32310375F00B76391 /* Info.plist */,
 				F83794BD2310375F00B76391 /* Preview Content */,
+				F83794C92310380400B76391 /* NetworkingManager.swift */,
+				F83794CB23103EF400B76391 /* Models.swift */,
 			);
 			path = RemoteAPISwiftUI;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F83794B62310375E00B76391 /* AppDelegate.swift in Sources */,
+				F83794CA2310380400B76391 /* NetworkingManager.swift in Sources */,
 				F83794B82310375E00B76391 /* SceneDelegate.swift in Sources */,
 				F83794BA2310375E00B76391 /* ContentView.swift in Sources */,
+				F83794CC23103EF400B76391 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
