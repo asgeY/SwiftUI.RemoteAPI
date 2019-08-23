@@ -2,10 +2,17 @@ import SwiftUI
 
 struct ContentView : View {
     
-    var networkManager = NetworkingManager()
+    @State var networkManager = NetworkingManager()
     
     var body: some View {
-        Text("Hello World")
+        
+        List(networkManager.todos.identified(by: \.id)) { data in
+            VStack {
+                Text(data.title)
+                    .padding(8)
+                    .font(.subheadline)
+            }
+        }
     }
 }
 
