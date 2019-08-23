@@ -1,11 +1,3 @@
-//
-//  ContentView.swift
-//  RemoteAPISwiftUI
-//
-//  Created by Simran Preet Narang on 8/23/19.
-//  Copyright © 2019 Simran Preet Narang. All rights reserved.
-//
-
 import SwiftUI
 
 struct ContentView : View {
